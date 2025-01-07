@@ -6,5 +6,5 @@ import (
 )
 
 func LogWT(i interface{}) {
-	fmt.Println(time.Now(), " - ", i)
+	fmt.Println("TIME: ", time.Now(), " MESSAGE: ", i)
 }
