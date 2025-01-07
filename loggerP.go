@@ -8,4 +8,3 @@ import (
 func LogWT(i interface{}) {
 	fmt.Println(time.Now(), " - ", i)
 }
-defer func()
